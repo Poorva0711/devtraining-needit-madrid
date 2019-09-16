@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description> Steps to approve and fulfill NeedIt requests.</description>
+        <internal_name>needit_fulfillment</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt","type":"reference","base_type":"reference"},{"name":"9a4c84e8-0183-40c1-8e27-3410c8f0dbe6.table_name","label":"1➛NeedIt Table","reference":"x_58872_needit_needit","reference_display":"NeedIt Table","type":"table_name","base_type":"table_name"},{"name":"9a4c84e8-0183-40c1-8e27-3410c8f0dbe6.record","label":"1➛NeedIt Record","reference":"x_58872_needit_needit","reference_display":"NeedIt Record","type":"reference","base_type":"reference"},{"name":"b5a88cb5-91ea-4726-8ca9-f37219cfadc5.answer","label":"2➛Assignee Category Record","reference":"x_58872_needit_assignee_category","reference_display":"Assignee Category Record","type":"reference","base_type":"reference"},{"name":"27637b3c-dc38-4b79-ab01-0253b9554d5b.record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"27637b3c-dc38-4b79-ab01-0253b9554d5b.table_name","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"2ab2f669-5a2d-473b-ad8b-72aec19fa372.Record","label":"3➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"2ab2f669-5a2d-473b-ad8b-72aec19fa372.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"}]</label_cache>
+        <latest_snapshot>a9f47a1bdbff73003d3d196c29961928</latest_snapshot>
+        <master_snapshot>a744721bdbff73003d3d196c29961957</master_snapshot>
+        <name>NeedIt Fulfillment</name>
+        <outputs/>
+        <remote_trigger_id>b344721bdbff73003d3d196c2996198d</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-15 11:59:47</sys_created_on>
+        <sys_id>3ada7d57db7f73003d3d196c2996193f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>NeedIt Fulfillment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_3ada7d57db7f73003d3d196c2996193f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-15 16:51:34</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=3ada7d57db7f73003d3d196c2996193f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3ada7d57db7f73003d3d196c2996193f"/>
+</record_update>
